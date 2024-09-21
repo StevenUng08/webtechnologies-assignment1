@@ -27,7 +27,27 @@ header nav a {
     text-decoration: none;
     margin: 0 10px;
     font-weight: 700;
+    font-size: 20px;
+    position: relative;
+    padding-bottom: 5px;
 }
+
+
+header nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #3498db;
+    left: 0;
+    bottom: 0;
+    transition: width 0.3s ease;
+}
+
+header nav a:hover::after {
+    width: 100%;
+}
+
 
 footer {
     background-color: #0d1949;
