@@ -30,7 +30,7 @@ function loadPosts(page) {
             loadingIndicator.classList.add('hidden')
         })
         .catch(error => {
-            console.error('Erreur lors de la récupération des publications:', error)
+            console.error('Error fetching:', error)
             isLoading = false
             loadingIndicator.classList.add('hidden')
         })}, 1000)

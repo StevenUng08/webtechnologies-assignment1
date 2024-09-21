@@ -49,6 +49,10 @@
     font-weight: bold;
 }
 
+.hero-text button:hover {
+    background-color: #0056b3;
+}
+
 .hero-image img {
     width: 80%;
     border-radius: 10px;
@@ -167,4 +171,8 @@
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
+}
+
+.cta-button button:hover {
+    background-color: rgb(0, 162, 250);
 }
