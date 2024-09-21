@@ -89,8 +89,47 @@ footer {
     gap: 20px;
 }
 
-.row img {
-    width: 20%;
+
+.woman {
+    width: 40%;
+    height: 40%;
     border-radius: 10px;
     border: 8px solid #788ee6;
+}
+
+.landscape {
+    width: 60%;
+    height: 20%;
+    border-radius: 10px;
+    border: 8px solid #788ee6;
+}
+
+.quote-section {
+    padding: 40px;
+    background-color: #f0f0f5;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    max-width: 900px;
+    background-color: #e0e0e5;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.quote-text {
+    font-style: italic;
+    text-shadow: #0d1949 1px 0 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.quote-author {
+    text-align: right;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: bold;
+    color: #333;
 }
