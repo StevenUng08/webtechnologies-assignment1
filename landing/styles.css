@@ -1,40 +1,4 @@
-@import url(fonts.css);
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
-
-body {
-    background-color: #f5f7fa;
-}
-
-header {
-    background-color: #0d1949;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
-
-header h1 {
-    margin-bottom: 10px;
-}
-
-header nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-    font-weight: 700;
-}
-
-footer {
-    background-color: #0d1949;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
 
 .hero {
     border-top: 0.1px solid #fff;
@@ -53,15 +17,36 @@ footer {
 .hero-text {
     width: 50%;
     padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .hero-image {
     width: 50%;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-text h1 {
     font-size: 2.5em;
+}
+
+.hero-text p {
+    padding-right: 40px;
+}
+
+.hero-text button {
+    width: 100px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .hero-image img {
@@ -69,15 +54,27 @@ footer {
     border-radius: 10px;
 }
 
-.randomContainer {
+.random-section {
+    padding: 40px;
     display: flex;
-    flex-direction: column;
-    gap: 40px;
-    margin: 0 auto;
-    padding: 20px 500px;
+    justify-content: center;
 }
 
-.randomRows {
+.random-container {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    /* padding: 20px 500px; */
+}
+
+.random-container h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.random-rows {
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -86,20 +83,24 @@ footer {
 
 .row {
     display: flex;
+    justify-content: center;
     gap: 20px;
+}
+
+.row p {
+    max-width: 50%;
+    padding: 20px;
 }
 
 
 .woman {
     width: 40%;
-    height: 40%;
     border-radius: 10px;
     border: 8px solid #788ee6;
 }
 
 .landscape {
     width: 60%;
-    height: 20%;
     border-radius: 10px;
     border: 8px solid #788ee6;
 }
@@ -121,7 +122,7 @@ footer {
 
 .quote-text {
     font-style: italic;
-    text-shadow: #0d1949 1px 0 10px;
+    text-shadow: #0d1949 1px 1px 30px;
     font-size: 1.2em;
     color: #333;
 }
@@ -132,4 +133,38 @@ footer {
     font-size: large;
     font-weight: bold;
     color: #333;
+}
+
+.cta-section {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-container {
+    border-radius: 8px;
+    min-width: 700px;
+    color: white;
+    background-color: rgb(37, 172, 245);
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    padding: 40px 20px;
+}
+
+.cta-button {
+    display: flex;
+    align-items: center;
+    
+}
+
+.cta-button button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(37, 172, 245);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
 }

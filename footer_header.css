@@ -1,0 +1,37 @@
+@import url(fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f5f7fa;
+}
+
+header {
+    background-color: #0d1949;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 30px 0;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 700;
+}
+
+footer {
+    background-color: #0d1949;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
