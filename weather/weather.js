@@ -1,9 +1,10 @@
 const cities = {
     tokyo: { lat: 35.6895, lon: 139.6917 },
-    paris: { lat: 48.8566, lon: 2.3522 },
-    gjovik: { lat: 60.7956, lon: 10.6916 },
-    london: { lat: 51.5074, lon: -0.1278 },
-    newyork: { lat: 40.7128, lon: -74.0060 }
+    paris: { lat: 48.8534, lon: 2.3488 },
+    gjovik: { lat: 60.7957, lon: 10.6915 },
+    london: { lat: 51.5085, lon: -0.1257 },
+    newyork: { lat: 40.7143, lon: -74.006 },
+    oslo: { lat: 59.9127, lon: 10.7461 }
 };
 
 async function fetchWeather(city) {
