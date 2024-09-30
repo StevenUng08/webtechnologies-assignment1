@@ -156,6 +156,10 @@
     padding: 40px 20px;
 }
 
+.cta-text {
+    width: 50%;
+}
+
 .cta-button {
     display: flex;
     align-items: center;
